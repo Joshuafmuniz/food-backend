@@ -20,7 +20,6 @@
 
 O projeto Food Explorer consiste no desafio final do programa Explorer da Rocketseat. Trata-se de uma aplicação de cardápio digital para um restaurante fictício.
 
-O back-end do projeto, que lida com a lógica e o armazenamento dos dados, está disponível neste repositório. Já o front-end, responsável pela interface do usuário, está disponível [aqui](https://github.com/mthflashice/food-explorer-frontend).
 
 <h2 id='structure'>📌 Estrutura</h2>
 
@@ -51,57 +50,4 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - PM2
 - SQLite
 - SQLite3
-
-<h2 id='usage'>💡 Utilização</h2>
-
-O back-end do projeto está hospedado no endereço https://food-explorer-backend-oxwh.onrender.com. A aplicação Food Explorer está disponível para uso [aqui](??).
-
-⚠️ **Importante**: Este projeto utiliza uma hospedagem gratuita para o back-end, portanto, pode haver atrasos no tempo de resposta do servidor.
-
-Você também pode executá-lo em sua máquina localmente. Certifique-se de ter o ``Node.js`` e o ``npm`` instalados antes de prosseguir com as etapas abaixo:
-
-1. Clone o projeto:
-
-```
-$ git clone https://github.com/mthflashice/food-explorer-backend
-```
-
-2. Acesse a pasta do projeto:
-
-```
-$ cd food-explorer-backend
-```
-
-3. Instale as dependências:
-
-```
-$ npm install
-```
-
-4. Inicie o servidor:
-
-```
-$ npm start
-```
-
-⚠️ **Importante**: Crie um arquivo .env de acordo com o arquivo .env.example e preencha os campos AUTH_SECRET e PORT com suas respectivas informações.
-
-- Para gerar o valor para o campo AUTH_SECRET, você pode utilizar o MD5 Hash Generator para gerar uma sequência de caracteres segura
-
-- Preencha o campo PORT com o número da porta desejada para executar o servidor da aplicação
-
-<h2 id='license'>📝 Licença</h2>
-
-Este projeto está sob a licença MIT.
-
----
-
-Feito com 💎 by Matheus Quirino 
-
-<div style='display: flex;'>
-  <a href='https://www.linkedin.com/in/matheus-quirino-leite-lino-825424127/' target='_blank'><img src='https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white' style='margin-right: 2vw' target='_blank'></a>
-  <a href='mailto:matheuslino@kerix.com.br'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoaCje5ZbczEWnmSfBkWCUMatbS3xeaHI-SpMZTa3Mmg&s' width=40px style='margin-right: 2vw' target='_blank'></a>
-  <a href='http://discordapp.com/users/665543956582629377'target='_blank'><img src='https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white' style='margin-right: 2vw' target='_blank'></a>
-  <a href='https://www.instagram.com/mthflashice/' target='_blank'><img src='https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white' target='_blank'></a>
-</div>
 
